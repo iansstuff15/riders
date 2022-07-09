@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 import ButtonComponent from '../components/button'
 import InputComponent from '../components/input'
 import Layout from '../components/layout'
-import styles from '../styles/Home.module.scss'
+import styles from '../styles/pages/Home.module.scss'
 import {RiArrowRightSFill} from 'react-icons/ri'
 
 import { ToastContainer, toast } from 'react-toastify';

@@ -1,25 +1,28 @@
+@import '../variables/colors';
+@import '../variables/sizes';
+
 .container{
     border: none;
     /* background-color: grey; */
     margin: 1rem 0;
     width: 30vw;
-    background-color: #03012c;
-    padding: .5rem 1rem;
-    border-radius: .5rem;
-    color: white;
+    background-color: $layout_accent_dark;
+    padding: $space_small $space_normal;
+    border-radius: $space_extra_small;
+    color: $color_mono_light;
     /* border: grey 1px solid; */
     backdrop-filter: saturate(180%) blur(100px);
 
     .label{
-        font-size: .8rem;
+        font-size: $font_small;
     }
     .input{
-        background-color: #03012c;
+        background-color: $layout_accent_dark;
         /* background-color: grey; */
-        border: none;
-        color: white;
+     
+        color: $color_mono_light;
         width: 95%;
-        margin-left: .5rem;
+        margin-left: $space_extra_small;
          backdrop-filter: saturate(50%) blur(100px);
          .input::-ms-reveal {
             filter: invert(100%);

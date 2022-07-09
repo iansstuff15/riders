@@ -1,10 +1,12 @@
+@import '../variables/colors';
+@import '../variables/sizes';
 .button{
-    background-color: #0959a3;
+    background-color: $color_accent;
     /* background-color: white; */
     /* border: grey 1px solid; */
     /* border: none; */
-    padding: .5rem 1rem;
-    border-radius: .3rem;
+    padding: $space_extra_small $space_normal;
+    border-radius: $space_extra_small;
     font-weight:900;
     cursor: pointer;
     text-align: center;

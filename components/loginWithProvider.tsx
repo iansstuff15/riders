@@ -1,4 +1,4 @@
-import styles from '../styles/button.module.scss'
+import styles from '../styles/components/button.module.scss'
 import { motion } from 'framer-motion'
 import React from 'react'
 import { ButtonProps } from '../interfaces/interface'

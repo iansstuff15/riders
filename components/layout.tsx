@@ -1,4 +1,4 @@
-import styles from '../styles/layout.module.scss'
+import styles from '../styles/components/layout.module.scss'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Header from './header';

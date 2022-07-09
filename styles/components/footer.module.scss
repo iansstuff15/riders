@@ -1,6 +1,8 @@
+@import '../variables/colors';
+@import '../variables/sizes';
+
 .container{
-    background-color: #03012c;
-    /* background-color: grey; */
+    background-color: $layout_accent_dark;
     padding: 10vh 10vw ;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -10,19 +12,19 @@
     color: white;
 
     p{
-        font-size: .6rem;
+        font-size: $font_small;
         width: 70%;
     }
     h2{
-        font-size: 1.5rem;
+        font-size: $font_large;
         margin-top: .5rem;
     }
     h5{
         margin-bottom: .5rem;
-        font-size: .8rem;
+        font-size: $font_small;
     }
     h6{
-        margin: .5rem 0 .5rem 1rem;
+        margin: $space_small 0 $space_small $space_normal;
         font-weight: normal;
     }
 }
