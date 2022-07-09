@@ -1,0 +1,37 @@
+.form{
+  /* border: #262626 2px solid; */
+  border-radius: .5rem;
+  width: fit-content;
+  padding: 1rem 2rem;
+
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+  height: 100vh;
+  align-content: center;
+}
+.provider_container{
+ 
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+.subtle_text{
+  font-weight: bold;
+  color: #464646 ;
+}
+.subject{
+  background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(89,85,228,1) 0%, rgba(46,167,240,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4rem;
+}
+.subtext{
+  font-size: 1rem;
+
+}
+.into_text{
+  font-size: 1.3rem;
+}
